@@ -69,19 +69,20 @@ protected:
 public:
 	InfixCalculator()
 	{
-		//result = 0;
 	}
 
 	~InfixCalculator()
 	{
-
 	}
 
+	// this function gets and sets the infix expression
 	void setInfixExpression(string expression)
 	{
 		infixExp = expression;
 	}
 
+
+	// clifford: this needs documention
 	void evaluateExpression()
 	{
 		for (int count = 0; count < infixExp.size(); count++)
